@@ -1,0 +1,483 @@
+/*for title */
+
+.hed {
+	margin: 50px;
+	height: 635px;
+	overflow: hidden;
+	width: auto;
+	border-radius: 5px;
+	outline: none;
+	border-color: #b8b9ba;
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+}
+
+.picg {
+	margin: 50px;
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+	min-height: 750px;
+	overflow: hidden;
+}
+.follow{
+	margin: 50px;
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+	min-height: 200px;
+	overflow: hidden;
+}
+
+.pack {
+	margin: 50px;
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+	min-height: 900px;
+	overflow: hidden;
+}
+
+.abtus {
+	margin-top: 50px;
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+	min-height: 300px;
+	width: auto;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding: auto;
+}
+
+.contus {
+	margin-top: 50px;
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+	min-height: 560px;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	padding: auto;
+}
+
+.foot {
+	margin-top: 50px;
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+	min-height: 130px;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	padding: auto;
+}
+
+.t {
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	font-size: 55px;
+	font-weight: bolder;
+	background-color: rgb(0, 185, 185);
+}
+
+/* for building*/
+
+.img-responsive {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: 0px;
+	left: 0;
+}
+
+/* for navigation bar*/
+
+.navbar {
+	width: 100%;
+	left: -5px;
+	text-align: center;
+}
+
+.navbar ul li {
+	padding: 0px 60px;
+	font-size: 20px;
+}
+
+.navbar :hover {
+	background-color: rgb(255, 168, 64);
+}
+
+/* for plane*/
+
+.img-responsive1 {
+	width: 25%;
+	height: 10%;
+	position: relative;
+	top: -450px;
+	animation-name: fly;
+	animation-duration: 12s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+.write {
+	width: 20%;
+	height: 30px;
+	font-size: 80%;
+	color: red;
+	position: relative;
+	top: -490px;
+	left: 30px;
+	animation-name: fly;
+	animation-duration: 12s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+
+/* for gallery*/
+
+.galler {
+	width: auto;
+	height: 57px;
+	text-align: center;
+	font-size: 55px;
+	background-color: rgb(255, 168, 64,0.75);
+}
+
+.galler h1 {
+	position: relative;
+	top: 0px;
+	animation: pulse 1s infinite;
+	animation-timing-function: linear;
+}
+
+.panels {
+	list-style-type: none;
+	padding: 0;
+	height: 0;
+	width: 0;
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+}
+
+.panels li {
+	position: relative;
+	width: 25%;
+	margin: 0;
+	display: block;
+	box-sizing: border-box;
+	float: left;
+	border: none;
+}
+
+.panels li div {
+	width: 100%;
+	padding: 25% 0;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 0;
+	cursor: pointer;
+	border: none;
+}
+
+.panels li img {
+	position: relative;
+	top: 50px;
+	width: 250px;
+	height: 250px;
+	border: none;
+}
+
+.panels li p {
+	position: relative;
+	top: 50px;
+	width: 250px;
+	height: 40px;
+	margin: 5px 0px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 22px;
+	border: solid;
+	font-weight: bolder;
+}
+
+.panels div#back {
+	transform: rotateY(90deg);
+}
+
+.panels div#front {
+	position: absolute;
+}
+
+#picwrap:hover #front {
+	transform: rotateY(360deg)
+}
+
+#picwrap:hover #back {
+	transform: rotateY(0deg)
+}
+/*for follow us bar*/
+
+.follow {
+	text-align: center;
+	background-color: lightsteelblue;
+	height: 110px;
+	position: relative;
+	top: 140px;
+}
+
+.follow h2 {
+	position: relative;
+	top: 0px;
+}
+
+.follow p {
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+}
+
+.follow i {
+	position: relative;
+	top: -20px;
+	color:red ;
+	animation: pulse 1s infinite;
+	animation-timing-function: linear;
+}
+
+/*for packages*/
+
+.packages {
+	position: relative;
+	width: 100%;
+	height: 57px;
+	text-align: center;
+	align-self: center;
+	font-size: 27px;
+	background-color: rgb(255, 168, 64,0.75);
+}
+
+.packages h1 {
+	position: relative;
+	top: 0px;
+	animation: pulse 1s infinite;
+	animation-timing-function:linear;
+}
+
+.row img {
+	height: 270px;
+	width: 270px;
+	border: 2px solid;
+	align-items: center;
+}
+
+.row p {
+	font-size: 25px;
+	font-weight: bolder;
+	line-height: 10px;
+	text-align: center;
+	margin: 20px 20px 10px;
+}
+
+.view {
+	height: 35px;
+	width: 70px;
+	background-color: rgb(255, 168, 64,0.75);
+	font-weight: bolder;
+	font-size: 15px;
+	margin: 20px 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	box-shadow: 0 0 18px #b8b9ba;
+	border-radius: 5px;
+	border: none;
+}
+
+.view:hover {
+	background-color: black;
+	color: rgb(255, 168, 64);
+	border-width: 2px;
+	box-shadow: 0 0 18px #b8b9ba;
+	border-radius: 5px;
+	border: none;
+	text-decoration: none;
+	animation: pulse 1s infinite;
+	animation-timing-function: linear;
+}
+@keyframes pulse{
+	0%{transform: scale(1);}
+	50%{transform: scale(1.2);}
+	100%{transform: scale(1);}
+}
+
+/*for about us bar*/
+
+#aboutus {
+	position: relative;
+	width: 100%;
+	height: 57px;
+	text-align: center;
+	font-size: 27px;
+	background-color: rgb(255, 168, 64,0.75);
+}
+
+#aboutus h1 {
+	position: relative;
+	top: 0px;
+}
+
+#aboutus p {
+	font-size: 20px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+/*for contact us bar*/
+
+.contactus {
+	position: relative;
+	width: 100%;
+	height: 57px;
+	text-align: left;
+	font-size: 27px;
+	background-color: rgb(255, 168, 64,0.75);
+}
+
+.contactus h1 {
+	position: relative;
+	top: 0px;
+	text-align: center;
+}
+
+/*for form fill*/
+
+#ctus table {
+	position: relative;
+	height: 30%;
+	width: 70%;
+	top: 30px;
+	left: 80px;
+	background-color: rgb(121, 186, 248,0.75);
+	border-radius: 15px;
+}
+
+.n {
+	width: 70%;
+	height: 5%;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 17px;
+	outline: none;
+}
+
+#ctus table p.ps {
+	font-size: 15px;
+	margin: 5px;
+	text-align: center;
+	box-shadow: 0 0 18px #b8b9ba;
+}
+
+.submit {
+	height: 35px;
+	top: 30px;
+	width: 70px;
+	background-color: rgb(255, 168, 64,0.75);
+	font-weight: bolder;
+	border: 2px solid;
+	font-size: 15px;
+	text-align: center;
+}
+
+/*for contact us*/
+
+#booking table {
+	position: relative;
+	top: 40px;
+	height: 30%;
+	width: 70%;
+	background-color: rgb(121, 186, 248,0.75);
+	border-radius: 15px;
+	text-align: center;
+	left: 80px;
+}
+
+#booking table p {
+	font-size: 25px;
+	margin: 2px;
+	text-align: center;
+	line-height: 25px;
+}
+
+#booking table .cb {
+	font-size: 18px;
+	text-align: center;
+	line-height: 18px;
+}
+
+/*for location*/
+
+#location table {
+	position: relative;
+	border: 3px solid;
+	height: 30%;
+	top: 50px;
+	width: 70%;
+	background-color: rgb(235, 235, 235);
+	border-radius: 5px;
+	left: 80px;
+}
+
+#location table p {
+	font-size: 25px;
+	margin: 2px;
+}
+
+#location table .l {
+	font-size: 18px;
+}
+
+
+/*for end bar*/
+
+#end {
+	position: relative;
+	width: 100%;
+	height: 35%;
+	text-align: center;
+	background-color:lightsteelblue;
+	;
+}
+
+#end p.p1 {
+	color: red;
+	font-weight: bolder;
+	font-size: 120%;
+	line-height: 90%;
+}
+
+#end p.p2 {
+	color: black;
+	font-weight: bold;
+	font-size: 100%;
+	line-height: 90%;
+}
+
+
+/*for plane animation*/
+
+@keyframes fly {
+	from {
+		transform: translateX(-300px);
+	}
+	to {
+		transform: translateX(1200px);
+	}
+}
+
